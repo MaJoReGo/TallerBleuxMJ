@@ -1,0 +1,925 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(46,37,80); 
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+  }
+  
+
+.contenedorPadre{
+    display: flex;
+    background-color: rgb(30,23,47);
+    margin: 0;
+    align-items: center;
+}
+
+.logo{
+   width: 60%;
+   margin: 0 150px;
+   display: flex;
+}
+
+.menu{
+  width: 40%;
+  margin: 0;
+  display: flex;
+}
+
+.menu ul li{  
+  text-align: center;
+  color: #ffffff9a;
+  list-style: none;
+  justify-content: row;
+  display: inline;
+  margin: 0 20px;
+}
+
+.menu button{
+    background: linear-gradient(90deg,rgb(136,63,213), rgb(8,125,213) 100%);  
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin: 0;
+    padding: 10px;
+    border: none;
+}
+
+.contenedorMenu{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.principalMenu{
+    width: 50%; 
+}
+
+.principalMenu h1{
+    color: rgb(255, 255, 255);
+    margin: 0 400px;
+    font-size: 80px;
+    padding: 50px 0 0 0;
+}
+
+.principalMenu p{
+    color: rgb(255, 255, 255);
+    margin: 10px 400px;
+    width: 50%;
+    font-size: 25px;
+    padding: 20px 0 0 0;
+}
+
+.logoPrincipal {
+    background-image: url("/imagenes/hojasFondo.jpg");
+    width: 100%;
+    background-size: 961px;
+    background-repeat: no-repeat;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.219);
+    color: rgb(255, 255, 255);
+    margin: 10px 400px;
+    width: 50%;
+    font-size: 25px;
+    padding: 10px;  
+}
+
+.boton1 button{
+    padding: 20px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color:rgb(244, 20, 134);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.boton2 button{
+    padding: 20px;
+    width: 100%;
+    font-size: 15px;
+    border: solid 1px rgb(255, 255, 255);
+    background-color: rgb(46,37,80);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.logoSecundario img{
+    width: 200px;
+    margin: 20px 10px;
+}
+.textoSegundo h1{
+    display: flex;
+    font-size: 80px;
+    color:rgb(244, 20, 134);
+    padding: 0 600px;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+}
+
+
+ .media {
+    display: flex;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+  }
+  .image{
+    width: 50%;
+  }
+.image img {
+    width: 600px;
+    margin: 50px 200px;
+  }
+.content {
+    width: 50%;
+    flex: 1;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 25px;
+    list-style: none;
+  }
+  .content h1{
+    padding: 10px 0;
+    color:rgb(244, 20, 134);
+  }
+  .content p{
+    padding: 10px 0;
+  }
+  .content h2{
+    padding: 10px 0;
+    color:rgb(244, 20, 134);
+  }
+  
+  .content ul li{
+  padding: 10px 0;
+  list-style: none;
+  }
+  .content li img{
+    width: 20px;
+    margin: 0 10px;
+  }
+  
+
+  .tercer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(46,37,80);
+  }
+.content3{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.content3 h1{
+    font-size: 80px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+}
+.content3 p{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.493);
+    line-height: 1.2;
+    width: 70%;
+    justify-content: center;
+    margin: 0 250px;
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    background-color: rgb(46,37,80);
+    justify-content: center;
+    width: 100%;
+  }
+
+  .flex-item {
+    background-color: white;
+    width: 25%;
+    margin: 30px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .flex-item1 {
+    background-color: white;
+    width: 25%;
+    margin: 30px;
+    text-align: center;
+    font-size: 25px;
+    color:rgb(244, 20, 134);
+  }
+
+  .flex-item1 img{
+    width: 150px;
+  }
+
+  .flex-item1 h1{
+    font-size: 45px;
+  }
+
+  .flex1 {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+  .flex1 h1{
+    font-size: 45px;
+  }
+
+  .flex1 p{
+    font-size: 25px;
+    margin: 0 10px;
+  }
+  .c ul li{
+    padding: 10px 0;
+    list-style: none;
+    color:rgb(0, 0, 0);
+  }
+
+  .c li img{
+    width: 20px;
+    margin: 0 10px;
+  }
+  .c p{
+    width: 80%;
+    align-items: center;
+    margin: 0 60px;
+    color:rgb(0, 0, 0);
+  }
+  .flex-item img{
+        width: 150px;
+  }
+
+  .flex-item h1{
+    font-size: 45px;
+  }
+
+  .flex {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .flex h1{
+    font-size: 45px;
+  }
+
+  .flex p{
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  .b ul li{
+    padding: 10px 0;
+    list-style: none;
+  }
+
+  .b li img{
+    width: 20px;
+    margin: 0 10px;
+  }
+
+  .b p{
+    width: 80%;
+    align-items: center;
+    margin: 0 60px;
+  }
+
+  .d ul li{
+    padding: 10px 0;
+    list-style: none;
+  }
+
+  .d li img{
+    width: 20px;
+    margin: 0 10px;
+  }
+  .d p{
+    width: 80%;
+    align-items: center;
+    margin: 0 60px;
+  }
+  .flexA {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+  .flexA button{
+    background: linear-gradient(90deg,rgb(255, 90, 175), rgb(244, 20, 134) 100%);  
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    padding: 10px 40px;
+}
+  .flexM {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+  .flexM button{
+    background: linear-gradient(90deg,rgb(136,63,213), rgb(8,125,213) 100%);  
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    padding: 10px 40px;
+}
+.Footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(255, 255, 255);
+  align-items: center;
+  padding: 40px 250px;
+}
+.Footer p {
+  width: 50%;
+  color: rgba(0, 0, 0, 0.696);
+}
+.Footer span {
+  color: rgba(244, 20, 136, 0.725);
+}
+
+.Footer img {
+  width: 40px;
+  display: flex;
+  margin-left: 0 400px;
+}
+
+@media(max-width:1280px){
+
+.logo{
+   width: 25%;
+}
+
+.menu{
+  width: 60%;
+}
+
+.principalMenu h1{
+    margin: 0 200px;
+}
+
+.principalMenu p{
+    margin: 10px 200px;
+}
+
+.botones {
+    margin: 10px 200px;
+    width: 60%;
+    font-size: 25px;
+    padding: 10px 40px; 
+}
+
+.textoSegundo h1{
+    padding: 0 370px;
+}
+
+.image{
+    width: 60%;
+}
+
+.c p {
+  margin: 40px;
+}
+
+.b p {
+  margin: 40px;
+}
+
+.d p {
+  margin: 40px;
+}
+}
+
+
+
+
+@media(max-width:1279px){
+  .logo{
+    width: 25%;
+ }
+ 
+ .menu{
+   width: 80%;
+ }
+ 
+ .principalMenu h1{
+     margin: 0 200px;
+ }
+ 
+ .principalMenu p{
+     margin: 10px 200px;
+ }
+ 
+ .botones {
+     margin: 10px 200px;
+     width: 60%;
+     font-size: 25px;
+     padding: 10px 40px; 
+ }
+ 
+ .textoSegundo h1{
+     padding: 0 370px;
+ }
+ 
+ .image{
+     width: 60%;
+ }
+ 
+ .c p {
+   margin: 40px;
+ }
+ 
+ .b p {
+   margin: 40px;
+ }
+ 
+ .d p {
+   margin: 40px;
+ }
+ }
+
+
+
+
+@media(max-width:920px){
+  
+body{
+  width: 100%;
+}
+
+.logo{
+ margin: 0 85px;
+ display: flex;
+}
+
+.menu ul li{  
+font-size: 10px;
+}
+
+.menu button{
+  font-size: 10px;
+}
+
+.principalMenu h1{
+  margin: 0 100px;
+  font-size: 20px;
+}
+
+.principalMenu p{
+  margin: 0 100px;
+  font-size: 10px;
+}
+
+.logoPrincipal {
+  background-size: 561px;
+}
+
+.botones {
+  margin: 10px 100px;
+  padding: 10px 100px;
+}
+
+.boton1 button{
+  padding: 10px;
+  font-size: 10px;
+}
+
+.boton2 button{
+  padding: 10px;
+  font-size: 10px;
+}
+.logoSecundario img{
+  width: 100px;
+}
+
+.textoSegundo h1{
+  font-size: 30px;
+  padding: 0 350px;
+}
+.image img {
+  width: 50%;
+}
+
+.content {
+  margin: 5px 0;
+  font-size: 10px;
+}
+.content h1{
+  padding: 10px 0;
+}
+
+.content3 h1{
+  font-size: 30px;
+}
+.content3 p{
+  font-size: 10px;
+  margin: 0 100px;
+}
+
+.flex-item {
+  width: 25%;
+  font-size: 10px;
+}
+
+.flex-item1 {
+  width: 25%;
+  font-size: 10px;
+}
+
+.flex-item1 img{
+  width: 50px;
+  margin: 10px 0;
+}
+
+.flex-item1 h1{
+  font-size: 30px;
+}
+
+.flex1{
+  padding: 10px;
+}
+
+.flex1 h1{
+  font-size: 30px;
+}
+
+.flex1 p{
+  font-size: 10px;
+}
+
+.c ul li {
+  padding: 16px 0;
+}
+.c li img{
+  padding: 5px 0;
+}
+.c p {
+  width: 80%;
+  margin: 70px 20px;
+}
+
+.flex-item img{
+  width: 50px;
+  margin: 10px 0;
+}
+
+.flex-item h1{
+  font-size: 30px;
+}
+
+.flex {
+  padding: 10px 0;
+}
+
+.flex h1{
+  font-size: 30px;
+}
+
+.flex p{
+  font-size: 10px;
+}
+
+.b ul li {
+  padding: 21px 0;
+}
+
+.b li img{
+  width: 20px;
+  margin: 0 10px;
+}
+
+.b p{
+  width: 80%;
+  margin: 70px 20px;
+}
+
+.d ul li {
+  padding: 20px 0;
+}
+
+.d li img{
+  width: 20px;
+  margin: 0 10px;
+}
+.d p {
+  width: 80%;
+  margin: 70px 20px;
+}
+
+.flexA button{
+  font-size: 10px;
+  padding: 10px 10px;
+}
+
+.flexM button{
+  font-size: 10px;
+  padding: 10px 10px;
+}
+
+.Footer{
+padding: 10px 70px;
+}
+
+.Footer p {
+width: 100%;
+}
+
+.Footer img {
+width: 20px;
+margin-left: 0 100px;
+}
+ }
+
+
+ @media(max-width:768px){
+
+  .logo{
+   margin: 0 40px;
+  }
+  
+  .menu ul li{  
+  font-size: 8px;
+  margin: 0 20px;
+  }
+  
+  .menu button{
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .principalMenu h1{
+    margin: 0 70px;
+    font-size: 15px;
+  }
+  
+  .principalMenu p{
+    margin: 0 70px;
+    font-size: 10px;
+  }
+  
+  .logoPrincipal {
+    background-size: 481px;
+  }
+  
+  .botones {
+    margin: 5px 50px;
+  }
+
+  .logoSecundario img{
+    width: 85px;
+  }
+  
+  .textoSegundo h1{
+    font-size: 30px;
+    padding: 0 300px;
+  }
+  .image img {
+    width: 300px;
+    margin: 50px 50px;
+  }
+  
+ }
+
+
+
+ 
+ @media(max-width:480px){
+
+  body{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(46,37,80); 
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+  }
+
+.logo{
+   width: 40%;
+   margin: 0 5px;
+}
+
+.menu ul li{  
+  margin: 0 10px;
+}
+
+
+.principalMenu{
+    width: 50%; 
+}
+
+.principalMenu h1{
+    margin: 0 50px;
+    font-size: 30px;
+    padding: 20px 0 0 0;
+}
+
+.principalMenu p{
+    margin: 5px 50px;
+    font-size: 10px;
+    padding: 10px 0 0 0;
+}
+
+.logoPrincipal {
+    width: 100%;
+    background-size: 361px;
+}
+
+.botones {
+    margin: 10px 30px;
+    width: 70%;
+    font-size: 10px;
+}
+
+.boton1 button{
+    padding: 10px;
+    width: 100%;
+    font-size: 10px;
+}
+
+.boton2 button{
+  padding: 10px;
+  width: 100%;
+  font-size: 10px;
+}
+
+.logoSecundario img{
+    width: 100px;
+}
+
+.textoSegundo h1{
+    font-size: 30px;
+    padding: 0 150px;
+}
+
+.image img {
+    width: 250px;
+    margin: 70px 25px;
+  }
+.content {
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 10px;
+  }
+
+  .content h1{
+    padding: 5px 0;
+  }
+  .content p{
+    padding: 10px 0;
+  }
+  .content h2{
+    padding: 10px 0;
+  }
+  
+  .content ul li{
+  padding: 5px 0;
+  }
+  .content li img{
+    width: 15px;
+    margin: 0 5px;
+  }
+
+.content3 h1{
+    font-size: 30px;
+}
+
+.content3 p{
+    font-size: 10px;
+    width: 70%;
+    margin: 0 65px;
+}
+
+.flex-item {
+  width: 120px;
+  font-size: 10px;
+  height: 500px;
+  margin: 20px;
+}
+
+  .flex-item1 {
+    width: 120px;
+    font-size: 10px;
+    height: 500px;
+    margin: 20px;
+  }
+
+  .flex-item1 img{
+    width: 50px;
+  }
+
+  .flex-item1 h1{
+    font-size: 30px;
+  }
+  .flex1 h1{
+    font-size: 10px;
+  }
+
+  .flex1 p{
+    font-size: 10px;
+  }
+  .c ul li {
+    padding: 5px 2px;
+}
+
+  .c li img{
+    width: 10px;
+  }
+  .c p {
+      width: 67%;
+      margin: 5px 25px;
+  }
+
+  .flex-item img{
+        width: 50px;
+  }
+
+  .flex-item h1{
+    font-size: 25px;
+  }
+
+  .flex h1{
+    font-size: 10px;
+  }
+
+  .flex p{
+    font-size: 10px;
+  }
+  .b ul li {
+    padding: 10px 0;
+}
+  .b li img{
+    width: 10px;
+  }
+
+  .b  p {
+    width: 67%;
+    margin: 15px 25px;
+}
+.d ul li {
+  padding: 10px 0;
+}
+  .d li img{
+    width: 10px;
+  }
+  .d p {
+    width: 67%;
+    margin: 15px 25px;
+}
+
+  .flexA button{
+    font-size: 10px;
+    padding: 5px 25px;
+}
+
+  .flexM button{
+    font-size: 10px;
+    padding: 5px 25px;
+  }
+
+.Footer{
+  width: 100%;
+}
+.Footer p {
+  font-size: 10px;
+}
+.Footer img {
+  width: 20px;
+}
+ }
