@@ -700,8 +700,23 @@ margin-left: 0 100px;
   }
   
   .botones {
-    margin: 5px 50px;
-  }
+    margin: 10px 10px;;
+    width: 20%;
+    font-size: 5px;
+    padding: 10px 50px;
+}
+
+.boton1 button{
+    padding: 5px;
+    width: 75%;
+    font-size: 5px;
+}
+
+.boton2 button{
+  padding: 5px;
+  width: 65%;
+  font-size: 5px;
+}
 
   .logoSecundario img{
     width: 85px;
