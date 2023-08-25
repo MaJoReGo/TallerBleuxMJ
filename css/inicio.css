@@ -82,7 +82,7 @@ body{
 }
 
 .logoPrincipal {
-    background-image: url("imagenes/hojasFondo.jpg");
+    background-image: url("../imagenes/hojasFondo.jpg");
     width: 100%;
     background-size: 961px;
     background-repeat: no-repeat;
