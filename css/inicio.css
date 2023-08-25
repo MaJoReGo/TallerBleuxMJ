@@ -740,8 +740,7 @@ margin-left: 0 100px;
 .menu ul li{  
   margin: 0 10px;
 }
-
-
+         
 .principalMenu{
     width: 50%; 
 }
@@ -759,6 +758,7 @@ margin-left: 0 100px;
 }
 
 .logoPrincipal {
+    background-image: url("../imagenes/hojasFondo.jpg");
     width: 100%;
     background-size: 361px;
 }
